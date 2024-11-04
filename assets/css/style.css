@@ -75,8 +75,32 @@ button:hover {
 }
 
 .bg-red{
-    background-color:rgba(14, 39, 148, 0.842);
+    background-color:rgba(192, 198, 205, 0.842);
     
+}
+.chimg{
+    height: 80px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.h2-colores{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 50px;
+    text-align: right;
+}
+.h2-colores .rojo{
+    color:red;
+}
+.h2-colores .blanco{
+    color:aliceblue;
+}
+.h2-colores .azul{
+    color:blue;
 }
 .img-c{
     height: 400px;
@@ -198,3 +222,23 @@ footer {
         width: 50%;
     }  
 }
+
+
+@media (max-width: 768px) {
+    .navbar {
+    font-size: 0.8em;
+    padding: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column; }
+    
+    
+    }
+    @media (max-width: 768px) {
+        .carousel-item {
+                height: 300px; 
+        }
+        .carousel-control-next { visibility: hidden;
+        }
+    }
