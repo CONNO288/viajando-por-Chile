@@ -1,7 +1,23 @@
 
 .bg-red{
-    background-color:rgba(14, 39, 148, 0.842);
+    background-color:rgba(204, 207, 211, 0.842);
     
+}
+.chimg{
+    height: 80px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 50px;
+    color: rgb(59, 59, 56);
+    text-align: right;
 }
 .img-c{
     height: 400px;
@@ -14,3 +30,22 @@
     object-fit: cover;
 }
 /*las clases del bootstrap estan preconfiguradas, y para hacer un cambio en el estilo se debe generar una clase nueva*/
+
+@media (max-width: 768px) {
+    .navbar {
+    font-size: 0.8em;
+    padding: 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column; }
+    
+    
+    }
+    @media (max-width: 768px) {
+        .carousel-item {
+                height: 300px; 
+        }
+        .carousel-control-next { visibility: hidden;
+        }
+    }
