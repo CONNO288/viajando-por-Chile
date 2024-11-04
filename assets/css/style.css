@@ -3,3 +3,14 @@
     background-color:rgba(14, 39, 148, 0.842);
     
 }
+.img-c{
+    height: 400px;
+    position: relative;
+    
+    
+}
+.img-c img{
+    height: 100%;
+    object-fit: cover;
+}
+/*las clases del bootstrap estan preconfiguradas, y para hacer un cambio en el estilo se debe generar una clase nueva*/
