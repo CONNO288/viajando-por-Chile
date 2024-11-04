@@ -74,6 +74,7 @@ button:hover {
     background-color: var(--primary-button-hover-color);
 }
 
+
 .bg-red{
     background-color:rgba(192, 198, 205, 0.842);
     
@@ -226,8 +227,8 @@ footer {
 
 @media (max-width: 768px) {
     .navbar {
-    font-size: 0.8em;
-    padding: 10px;
+        font-size: 0.8em;
+        padding: 10px;
     }
 
     .navbar-nav {
