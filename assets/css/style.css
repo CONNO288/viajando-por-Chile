@@ -1,6 +1,6 @@
 
 .bg-red{
-    background-color:rgba(204, 207, 211, 0.842);
+    background-color:rgba(192, 198, 205, 0.842);
     
 }
 .chimg{
@@ -11,13 +11,21 @@
     display: flex;
     justify-content: space-between;
 }
-.h2{
+.h2-colores{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
     height: 50px;
-    color: rgb(59, 59, 56);
     text-align: right;
+}
+.h2-colores .rojo{
+    color:red;
+}
+.h2-colores .blanco{
+    color:aliceblue;
+}
+.h2-colores .azul{
+    color:blue;
 }
 .img-c{
     height: 400px;
